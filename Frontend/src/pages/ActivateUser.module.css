@@ -1,0 +1,38 @@
+.contentTitle {
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 550;
+    background-color: #779ED8;
+    color: #0F0C2C;
+}
+
+.inputDiv {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 100%;
+    font-size: medium;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: #e3e3e3;
+    margin-bottom: 1rem;
+    padding: 0.75rem 0 0.75rem 0.75rem;
+	box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 550px) {
+    .inputDiv {
+        width: 90%;
+    }
+}

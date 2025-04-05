@@ -1,0 +1,41 @@
+.faDiv {
+    width: 21rem;
+    margin-top: -0.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.faInnerDiv {
+    width: 90%;
+    display: flex;
+}
+
+.redirect1Div{
+    width: 50%;
+}
+
+.redirect2Div{
+    width: 50%;
+    text-align: end;
+}
+
+@media screen and (max-width: 420px) {
+    .faDiv {
+        width: 19rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .faInnerDiv {
+        font-size: small;
+    }
+    .faDiv {
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .faDiv {
+        width: 15rem;
+    }
+}

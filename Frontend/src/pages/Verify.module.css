@@ -1,0 +1,51 @@
+.contentTitle {
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 550;
+    background-color: #779ED8;
+    color: #0F0C2C;
+}
+
+.otpInputDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.otpInput {
+    height: 2.25rem;
+    width: 2rem;
+    font-size: medium;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: #e3e3e3;
+    text-align: center;
+	box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+.contentResendDiv {
+    margin-top: -0.5rem;
+}
+
+.instructionDiv {
+    max-width: 22rem;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media screen and (max-width: 400px) {
+    .otpInputDiv { 
+        max-width: 9rem;
+        flex-wrap: wrap;
+    }
+}

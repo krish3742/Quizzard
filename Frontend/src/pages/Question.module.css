@@ -1,0 +1,59 @@
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quesDiv {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.title {
+    font-size: large;
+    font-weight: 500;
+    margin: 0;
+}
+
+.para {
+    font-size: large;
+    margin: 0;
+    font-weight: 400;
+}
+
+.favItem {
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 1;
+    border-image: radial-gradient(red 69%, #0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.heroTitle {
+    color: #0F0C2C;
+    font-size: large;
+    font-weight: 500;
+}
+
+.clearButton {
+    width: 5.5rem;
+    height: 1.5rem;
+    background-color: rgba(128, 128, 128, 0.2);
+    font-size: small;
+    border: black solid 1px;
+}
+
+.clearButton:hover {
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.unfavItem {
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 1;
+    border-image: radial-gradient(rgb(14, 0, 0) 69%, rgba(1, 0, 0, 0) 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    background-color: transparent;
+    cursor: pointer;
+}

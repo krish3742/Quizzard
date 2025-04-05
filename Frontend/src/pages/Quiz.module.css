@@ -1,0 +1,31 @@
+.heroContainerContent {
+    width: 90%;
+    min-height: max-content;
+    background-color: white;
+    border-radius: 10px;
+    color: #0F0C2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.para {
+    font-size: larger;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.button {
+    height: 2.75rem;
+    width: 10rem;
+    background-color: #0F0C2C;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: larger;
+    color: white;
+    margin-top: 0.25rem;
+}

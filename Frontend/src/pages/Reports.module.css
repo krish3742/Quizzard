@@ -1,0 +1,18 @@
+.para {
+    font-size: large;
+    margin: 0;
+    font-weight: 400;
+}
+
+.button {
+    height: 2.75rem;
+    width: 10rem;
+    background-color: wheat;
+    border-radius: 50px;
+    border: 1px solid black;
+    outline: none;
+    font-size: large;
+    font-weight: 500;
+    color: #0F0C2C;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
